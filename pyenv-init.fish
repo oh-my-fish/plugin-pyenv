@@ -1,5 +1,5 @@
 
-function pyenv-init --description "Pyenv inicialization script for fish shell"
+function pyenv-init --description "Pyenv initialization script for fish shell"
 
     # Checks if directories already exists. If not, creates then
     for dir in "shims" "bin"

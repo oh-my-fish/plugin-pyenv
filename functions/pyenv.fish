@@ -4,7 +4,7 @@ function pyenv
 
   switch "$cmd"
   case activate deactivate rehash shell virtualenvwrapper virtualenvwrapper_lazy
-    source (command pyenv "sh-$cmd" $argv|psub)
+    command pyenv "sh-$cmd" $argv | source
   case '*'
     command pyenv "$cmd" $argv
   end

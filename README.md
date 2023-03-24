@@ -29,7 +29,7 @@ Just use pyenv as you see fit:
 pyenv help
 ```
 
-Don't forget to check the [docs][pyen-docs]!
+Don't forget to check the [docs][pyenv-docs]!
 
 # License
 
